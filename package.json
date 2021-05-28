@@ -1,0 +1,11 @@
+{
+  "name": "lg-notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yiyang-fairy/lg-notes.git",
+  "author": "yiyang-fairy <1196342044@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

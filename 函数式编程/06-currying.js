@@ -18,7 +18,7 @@ console.log(curried(1)(2, 3))
 
 //使用柯里化的目的是将多元的函数转化成一元的函数
 
-console.log(curried(1)(2)(3))
+console.log(curried(1)(2))
 
 
 
@@ -47,10 +47,10 @@ const filter = _.curry(function(func, array) {
     return array.filter(func)
 })
 
-console.log(filter(haveSpace, ['one two', 'one_two']))
+//console.log(filter(haveSpace, ['one two', 'one_two']))
 
 
 //使用filter 直接生成一些特定功能的函数
 const findSpace = filter(haveSpace)
 
-console.log(findSpace(['one two', 'one_two']))
+//console.log(findSpace(['one two', 'one_two']))

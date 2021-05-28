@@ -1,0 +1,21 @@
+<script>
+    function sum(value) {
+        let sumValue = value
+
+        function f(nextValue) {
+            console.log("invoke f")
+            sumValue += nextValue
+            return f
+        }
+
+        f.toString = function() {
+            console.log("toStirng")
+            return sumValue
+        }
+
+        return f
+    }
+
+    alert(sum(1)(2)(3)) // 3
+        // console.log(sum(1)(2)(3)(4)) // 3
+</script>
