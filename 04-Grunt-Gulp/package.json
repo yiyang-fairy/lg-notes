@@ -1,0 +1,13 @@
+{
+    "name": "grunt-gulp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "计传婷 <1196342044@qq.com>",
+    "license": "MIT",
+    "dependencies": {
+        "grunt": "^1.4.1"
+    },
+    "devDependencies": {
+        "gulp": "^4.0.2"
+    }
+}
