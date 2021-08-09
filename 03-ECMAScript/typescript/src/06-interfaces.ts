@@ -1,3 +1,5 @@
+// interfaces 接口
+
 export {}
 
 interface Post {

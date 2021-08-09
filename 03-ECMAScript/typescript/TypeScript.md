@@ -62,4 +62,26 @@ flow 提供类型注解，在变量名后面标注类型
 // @flow
 ~~~
 
- 
+## interfaces
+
+接口  interfaces：
+
+​	TypeScript 的核心原则之一是对值所具有的结构进行类型检查，接口的作用就是为这些类型命名和为你的代码或第三方代码定义契约
+
+属性：
+
+~~~js
+interface Post {
+    title: string
+    content: string
+    
+    //可选属性：
+    subtitle?: string  //  ?: xx  表示该属性类型为空或者为XX  可选成员
+    
+    //只读属性：
+    readonly summary: string   //  属性名前加 readonly 来指定只读属性
+}
+~~~
+
+
+
